@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html & body */
+html {
+    scroll-behavior: smooth;
+    scrollbar-gutter: stable;
+    overflow-x: hidden;
+}
+
+body{
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+#grid-container {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  border: 2px solid #000;
+}
+
+.pixel {
+  background-color: #fff;
+  border: 0.1px solid #f0f0f0; /* Optional: adds a faint grid look */
+}
